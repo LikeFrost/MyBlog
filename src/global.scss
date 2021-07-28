@@ -1,0 +1,10 @@
+// 引入默认全局样式
+@import '@alifd/next/reset.scss';
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background-image: url('../picture/bg5.jpg');
+  background-repeat: no-repeat;
+  //background-color: black;
+}
+
