@@ -1,9 +1,8 @@
 {
   "name": "@alifd/scaffold-lite-js",
   "private": true,
-  "homepage": "./",  
+  "homepage": "./",
   "version": "0.1.0",
-  "description": "轻量级模板，使用 JavaScript，仅包含基础的 Layout。",
   "dependencies": {
     "@alifd/next": "^1.19.4",
     "@alifd/theme-design-pro": "^0.x",
@@ -12,6 +11,16 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
+  "buildConfig":{
+    "entry":"src/app.jsx",
+    "output":{
+      "path": "__dirname",
+      "filename": ["./dist/index.js","./dist/index.css"]
+    },
+    "externals":"",
+    "localization":true
+    },
+
   "devDependencies": {
     "@iceworks/spec": "^1.0.0",
     "build-plugin-fusion": "^0.1.0",
@@ -28,12 +37,11 @@
     "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx ./",
     "eslint:fix": "npm run eslint -- --fix",
     "stylelint": "stylelint \"**/*.{css,scss,less}\"",
-      "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/alibaba-fusion/materials/tree/master/scaffolds/scaffold-lite-js"
   },
-  "private": true,
   "originTemplate": "@alifd/scaffold-lite-js"
 }
