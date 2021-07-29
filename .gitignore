@@ -4,9 +4,11 @@
 node_modules/
 
 # production
+build/
 dist/
 tmp/
 lib/
+picture/
 
 # misc
 .idea/
