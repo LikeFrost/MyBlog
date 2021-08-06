@@ -1,0 +1,44 @@
+
+.body{
+    height: 100%;
+    width: 100%;
+    //background-image: url('/picture/bg9.jpg');
+    margin-top: 0px;
+    position: absolute;
+}
+.img1{
+    position: absolute;
+    z-index: 1;
+    height: 10%;
+    margin-left: 80%;
+    margin-top: -310px;
+}
+.text{
+    margin-top: 10px;
+    margin-left: 100px;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+.time{
+    margin-top: 40px ;
+    margin-left: 150px;
+    color: black;
+    font-size: 30px;
+    //font-weight: bold;
+}
+.exp{
+    margin-top: 10px ;
+    margin-left: 250px;
+    color: black;
+    font-size: 30px;
+    //font-weight: bold;
+}
+.lo{
+    display: inline-block;
+    margin-top: 30px ;
+    margin-left: 40px;
+    color: black;
+    font-size: 30px;
+    //font-weight: bold;
+}

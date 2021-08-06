@@ -8,6 +8,7 @@
   line-height: 150px;
   padding-left: 30px;
   z-index: 999;
+  margin: -320px 0 0 50px;
 
   &:visited,
   &:link {
@@ -22,10 +23,10 @@
 }
 
 .text{
-  color:black
+  color:white
 }
 .distext{
-  color:rgb(128, 127, 127);
+  color:white;
   padding-left: 20px;
   font-size: 18px;
 }

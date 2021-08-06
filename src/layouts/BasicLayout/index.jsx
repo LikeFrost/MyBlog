@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Shell, ConfigProvider } from '@alifd/next';
-import PageNav from './components/PageNav';
 import Logo from './components/Logo';
 import Footer from './components/Footer';
 import styles from './index.module.scss';
@@ -53,10 +52,11 @@ export default function BasicLayout({ children }) {
 
   return (
     <ConfigProvider device={device}>
-      <>
+      <div className={styles.container}>
        <Logo className={styles.logo} image="picture\logo.jpg" text="Like_Frost" distext="热爱可抵岁月漫长"/>
+       
        <div className={styles.content}>{children}</div>
-       </>
+       </div>
     </ConfigProvider>
   );
 }

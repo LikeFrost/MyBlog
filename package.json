@@ -6,21 +6,27 @@
   "dependencies": {
     "@alifd/next": "^1.19.4",
     "@alifd/theme-design-pro": "^0.x",
+    "@fullpage/react-fullpage": "^0.1.19",
     "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.11.2",
+    "material-ui": "^1.0.0-beta.47",
+    "material-ui-icons": "^1.0.0-beta.36",
     "moment": "^2.24.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
-  "buildConfig":{
-    "entry":"src/app.jsx",
-    "output":{
+  "buildConfig": {
+    "entry": "src/app.jsx",
+    "output": {
       "path": "__dirname",
-      "filename": ["./dist/index.js","./dist/index.css"]
+      "filename": [
+        "./dist/index.js",
+        "./dist/index.css"
+      ]
     },
-    "externals":"",
-    "localization":true
-    },
-
+    "externals": "",
+    "localization": true
+  },
   "devDependencies": {
     "@iceworks/spec": "^1.0.0",
     "build-plugin-fusion": "^0.1.0",

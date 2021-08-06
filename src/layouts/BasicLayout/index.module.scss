@@ -1,5 +1,11 @@
+.container{
+  background-image: url('/picture/bg5.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+}
 .content {
-  margin: 0px 200px 20px 150px;
-  background-color: (255,255,245,0.5);
-  height: 400px;
+  margin: 0px 200px 0px 150px;
+  //background-color: (255,255,245,0.5);
+  height: 100%;
 }

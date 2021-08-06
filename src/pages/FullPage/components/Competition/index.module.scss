@@ -1,0 +1,23 @@
+.box{
+    height: 100%;
+    width: 100%;
+    background-image: url('/picture/bg10.jpg');
+    
+    margin-top: -300px;
+    margin-left: 320px;
+    z-index: 0;
+    padding: 30px;
+}
+.title{
+    color: grey;
+    font-size: 50px;
+    font-weight: bold;
+    //margin: 100px 50px 50px 50px;
+}
+.img{
+    position: absolute;
+    z-index: 1;
+    height: 55%;
+    margin-left: -100px;
+    margin-top: -340px;
+}
