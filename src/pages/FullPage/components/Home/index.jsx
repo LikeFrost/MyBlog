@@ -6,28 +6,14 @@ import Tab from '@material-ui/core/Tab';
 import styles from './index.module.scss';
 import { Button, Box, Icon, Drawer} from '@alifd/next';
 import { useState } from 'react';
-import pic_menu1 from '/picture/menu1.jpg'
-import pic_menu2 from '/picture/menu3.jpg'
-import pic_menu3 from '/picture/menu4.jpg'
-import pic_menu4 from '/picture/menu5.jpg'
+import pic_menu1 from '/public/picture/menu1.jpg'
+import pic_menu2 from '/public/picture/menu3.jpg'
+import pic_menu3 from '/public/picture/menu4.jpg'
+import pic_menu4 from '/public/picture/menu5.jpg'
 
-const useStyles = makeStyles({
-  root: {
-    flexGrow: 1,
-    color:'#FFF',
-    textColor:'#FFFFFF'
-  },
-  label:{
-    color: "#FFFFFF",
-  },
-  indicator: {
-    backgroundColor: "#FFF"  //条的颜色
-  }
-});
 const anchors = ["firstPage", "secondPage", "thirdPage"];
 
 function Home() {
-  const classes = useStyles();
   const [value, setValue] = React.useState(0);
   const [isVisible, setVisible]=useState(false);
   const OpenList=()=>{
@@ -43,13 +29,13 @@ function Home() {
     window.location.href='/#about/lab'
   }
   const click2=()=>{
-    window.location.href='/#competition'
+    window.location.href='/#about/competition'
   }
   const click3=()=>{
-    window.location.href='/#project'
+    window.location.href='/#about/project'
   }
   const click4=()=>{
-    window.location.href='/#life'
+    window.location.href='/#about/link'
   }
 
   return (
@@ -84,11 +70,9 @@ function Home() {
             </div>
             <div className={styles.menu4} onClick={click4}>
               <div className={styles.title}>04.</div>
-              <div className={styles.life}>Daily Life</div>
+              <div className={styles.life}>Friendly Link</div>
             </div>
           </div>
-         
-
         </Drawer>
         <div className={styles.tab}>
           <div className={styles.text1}>Hello everyone , I am</div>

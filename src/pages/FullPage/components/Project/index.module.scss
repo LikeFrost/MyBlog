@@ -1,8 +1,8 @@
 .box{
     height: 100vh;
     width: 100%;
-    background-image: url('/picture/bg8.jpg');
-    opacity: 0.7;
+    background-image: url('/picture/bg10.jpg');
+    opacity: 0.8;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -16,23 +16,31 @@
 .img{
     position: absolute;
     z-index: 1;
-    height: 80%;
-    margin-left: -130px;
-    margin-top: -530px;
+    height: 70%;
+    margin-left:47%;
+    margin-top: -440px;
 }
-.timeline{
+.timeline1{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.timeline2{
     position: absolute;
     margin-left: 50%;
-    margin-top: -580px;
+    margin-top: -80px;
 }
 .item_title{
     font-size: 20px;
     height: 40px;
+    color: black;
 }
 .item_content{
     font-size: 16px;
-    height: 40px;
+    //height: 40px;
     margin-top: -10px;
+    width: 460px;
+    line-height: 1.5em;
 }
 .item_time{
     font-size: 18px;
@@ -45,7 +53,7 @@
 }
 .button{
     position: absolute;
-    margin-top: -100px;
-    margin-left: 35%;
+    margin-top: -130px;
+    margin-left: 10%;
     z-index: 99;
 }

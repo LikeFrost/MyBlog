@@ -4,13 +4,14 @@ import Home from './components/Home/index';
 import styles from './index.module.scss';
 import Lab from './components/Lab/index'
 import Competition from './components/Competition/index'
+import Contact from './components/Contact'
 
 function FullPage() {
   return (
     <>
     <ReactFullpage
         navigation={true}
-        anchors={['Hi', 'Lab_Experience', 'thirdPage', 'fourthPage', 'lastPage']}
+        anchors={['Hi', 'Contact_me']}
         scrollingSpeed = {1000}
         //sectionsColor={['#ff5f45', '#0798ec', '#fc6c7c', 'grey']}
         render={({state, fullpageApi}) => {
@@ -18,9 +19,7 @@ function FullPage() {
             <> 
             <ReactFullpage.Wrapper>
               <div className="section"><Home/></div>
-              <div className="section "><Home/></div>
-              <div className="section "><Competition/></div>
-              <div className="section"><Home/></div>
+              <div className="section "><Contact/></div>
             </ReactFullpage.Wrapper>
             </>
           );

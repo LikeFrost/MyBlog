@@ -1,0 +1,102 @@
+.box{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/picture/bg11.jpg');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: 100%;
+} 
+.link{
+    height: 800px;
+    width: 600px;
+    background-image: url('/picture/dialogl.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -190px;
+    z-index: 999;
+}
+.title{
+    font-size: 70px;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke:2px rgb(33, 110, 43);
+    border-radius: 5px;
+    font-family: 'Papyrus';
+    margin-top: 330px;
+    margin-left: 110px;
+}
+.content{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    -webkit-text-stroke:1px rgb(99, 233, 238);
+    border-radius: 5px;
+    font-family: 'Papyrus';
+    margin-top: 5px;
+    margin-left: 200px;
+}
+.ball1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 100px;
+    width: 100px;
+    transform:rotate(-15deg);
+    -ms-transform:rotate(-15deg); 	/* IE 9 */
+    -moz-transform:rotate(-15deg); 	/* Firefox */
+    -webkit-transform:rotate(-15deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-15deg); 	/* Opera */
+}
+.ball2{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+    height: 100px;
+    width: 100px;
+    transform:rotate(-75deg);
+    -ms-transform:rotate(-75deg); 	/* IE 9 */
+    -moz-transform:rotate(-75deg); 	/* Firefox */
+    -webkit-transform:rotate(-75deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-75deg); 	/* Opera */
+}
+.ball3{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 400px;
+    transform:rotate(20deg);
+    -ms-transform:rotate(20deg); 	/* IE 9 */
+    -moz-transform:rotate(20deg); 	/* Firefox */
+    -webkit-transform:rotate(20deg); /* Safari 和 Chrome */
+    -o-transform:rotate(20deg); 	/* Opera */
+}
+.ball4{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 500px;
+    transform:rotate(-40deg);
+    -ms-transform:rotate(-40deg); 	/* IE 9 */
+    -moz-transform:rotate(-40deg); 	/* Firefox */
+    -webkit-transform:rotate(-40deg); /* Safari 和 Chrome */
+    -o-transform:rotate(-40deg); 	/* Opera */
+}
+.ball5{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 580px;
+    height: 100px;
+    width: 100px;
+    transform:rotate(40deg);
+    -ms-transform:rotate(40deg); 	/* IE 9 */
+    -moz-transform:rotate(40deg); 	/* Firefox */
+    -webkit-transform:rotate(40deg); /* Safari 和 Chrome */
+    -o-transform:rotate(40deg); 	/* Opera */
+}
+.button{
+    margin-left: 80%;
+    margin-top: 350px;
+    position: absolute;
+    height: 30px;
+    z-index: 999;
+}

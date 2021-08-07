@@ -53,7 +53,7 @@ export default function BasicLayout({ children }) {
   return (
     <ConfigProvider device={device}>
       <div className={styles.container}>
-       <Logo className={styles.logo} image="picture\logo.jpg" text="Like_Frost" distext="热爱可抵岁月漫长"/>
+       <Logo className={styles.logo} image="/picture/logo.jpg" text="Like_Frost" distext="热爱可抵岁月漫长"/>
        
        <div className={styles.content}>{children}</div>
        </div>

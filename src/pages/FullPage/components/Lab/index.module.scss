@@ -1,31 +1,33 @@
 
-.body{
-    height: 100%;
+.con{
     width: 100%;
-    //background-image: url('/picture/bg9.jpg');
-    margin-top: 0px;
-    position: absolute;
+    height: 100vh;
+    background-image: url('/picture/bg7.jpg');
+    background-repeat: no-repeat;
+    //margin-top: -200px;
+    background-size: 100% ;
 }
 .img1{
-    position: absolute;
+    //position: absolute;
     z-index: 1;
-    height: 10%;
-    margin-left: 80%;
-    margin-top: -310px;
+    height: 70%;
+    margin-left: 50%;
+    margin-top: -380px;
 }
 .text{
-    margin-top: 10px;
+    padding-top: 50px;
     margin-left: 100px;
     color: black;
     font-size: 50px;
     font-weight: bold;
 }
 .time{
-    margin-top: 40px ;
+    margin-top: 60px ;
     margin-left: 150px;
-    color: black;
+    color: rgb(78, 78, 78);
     font-size: 30px;
-    //font-weight: bold;
+    font-family: courier;
+    font-weight: bold;
 }
 .exp{
     margin-top: 10px ;
@@ -41,4 +43,10 @@
     color: black;
     font-size: 30px;
     //font-weight: bold;
+}
+.button{
+    margin-left: 50px;
+    margin-top: 50px;
+    position: absolute;
+    height: 30px;
 }
