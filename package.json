@@ -1,7 +1,7 @@
 {
   "name": "@alifd/scaffold-lite-js",
   "private": true,
-  "homepage": ".",
+  "homepage": "./",
   "version": "0.1.0",
   "dependencies": {
     "@alifd/next": "^1.19.4",
@@ -45,6 +45,7 @@
     "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx ./",
     "eslint:fix": "npm run eslint -- --fix",
     "stylelint": "stylelint \"**/*.{css,scss,less}\"",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "repository": {
