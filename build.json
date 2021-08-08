@@ -1,5 +1,5 @@
 {
-  "publicPath":"./",
+  "publicPath":"https://likefrost.github.io/MyBlog",
   "plugins": [
     [
       "build-plugin-fusion",

@@ -1,7 +1,7 @@
 {
   "name": "@alifd/scaffold-lite-js",
   "private": true,
-  "homepage": "./",
+  "homepage": "https://likefrost.github.io/MyBlog",
   "version": "0.1.0",
   "dependencies": {
     "@alifd/next": "^1.19.4",

@@ -2,10 +2,10 @@ import BasicLayout from '@/layouts/BasicLayout';
 import FullPage from './pages/FullPage';
 import UserLayout from '@/layouts/UserLayout'
 import Home from './pages/FullPage/components/Home';
-import Lab from './pages/FullPage/components/Lab';
-import Competition from './pages/FullPage/components/Competition';
-import Project from './pages/FullPage/components/Project';
-import Link from './pages/FullPage/components/Link';
+import Lab from './pages/Lab';
+import Competition from './pages/Competition';
+import Project from './pages/Project';
+import Link from './pages/Link';
 
 
 const routerConfig = [

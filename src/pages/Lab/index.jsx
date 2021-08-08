@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import styles from './index.module.scss'
 import pic_bg from '/public/picture/bg9.jpg'
 import pic_work from '/public/picture/working.png'
-import Logo from '../Logo/index'
+import Logo from '../FullPage/components/Logo/index'
 import { useEffect } from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import {Button} from '@alifd/next';

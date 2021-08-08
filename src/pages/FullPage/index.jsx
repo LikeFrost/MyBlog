@@ -2,8 +2,7 @@ import React from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Home from './components/Home/index';
 import styles from './index.module.scss';
-import Lab from './components/Lab/index'
-import Competition from './components/Competition/index'
+import Competition from '../Competition/index'
 import Contact from './components/Contact'
 
 function FullPage() {
