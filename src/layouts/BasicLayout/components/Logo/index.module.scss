@@ -4,28 +4,37 @@
   justify-content: left;
   color: $color-text1-1;
   font-weight:400;
-  font-size: 26px;
-  line-height: 150px;
-  padding-left: 30px;
-  z-index: 999;
-
-  &:visited,
-  &:link {
-    color: $color-text1-1;
-  }
+  font-size: 1.5em;
+  margin-top: 5vh;
+  padding-left: 3%;
+  z-index: 0;
 
   img {
-    height: 80px;
-    margin-right: 10px;
-    border-radius: 40px;
+    height: 6em;
+    margin-right: 1em;
+    border-radius: 3em;
   }
 }
 
 .text{
-  color:black
+  color:black;
+  font-size: 2.5em;
 }
 .distext{
   color:rgb(128, 127, 127);
-  padding-left: 20px;
-  font-size: 18px;
+  padding-left: 1em;
+  font-size: 1.3em;
+}
+
+@media only screen and (max-width: 426px) {
+  .logo{font-size: 1em;}
+}
+@media only screen and (min-width: 426px) and (max-width:768px) {
+  .logo{font-size: 1.3em;}
+}
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+  .logo{font-size: 1.7em;}
+} 
+@media only screen and (min-width: 1025px) {
+  .logo{font-size: 2em;}
 }

@@ -29,7 +29,7 @@ function Link() {
     </div>
   )
   const toHome=()=>{
-    window.location.href='/#Hi'
+    location.hash='/Hi'
   }
   return (
     <div className={styles.box}>

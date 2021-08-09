@@ -4,14 +4,13 @@ import Paper from '@material-ui/core/Paper';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import styles from './index.module.scss';
-import { Button, Box, Icon, Drawer} from '@alifd/next';
+import { Button, Box, Icon, Drawer,ResponsiveGrid} from '@alifd/next';
 import { useState } from 'react';
-import pic_menu1 from '/public/picture/menu1.jpg'
-import pic_menu2 from '/public/picture/menu3.jpg'
-import pic_menu3 from '/public/picture/menu4.jpg'
-import pic_menu4 from '/public/picture/menu5.jpg'
+import {createHashHistory} from 'history'
 
 const anchors = ["firstPage", "secondPage", "thirdPage"];
+const history = createHashHistory();
+const {Cell} = ResponsiveGrid;
 
 function Home() {
   const [value, setValue] = React.useState(0);
@@ -26,16 +25,17 @@ function Home() {
     setValue(newValue);
   };
   const click1=()=>{
-    window.location.href='/#about/lab'
+    
+    location.hash='/about/lab'
   }
   const click2=()=>{
-    window.location.href='/#about/competition'
+    location.hash='/about/competition'
   }
   const click3=()=>{
-    window.location.href='/#about/project'
+    location.hash='/about/project'
   }
   const click4=()=>{
-    window.location.href='/#about/link'
+    location.hash='/about/link'
   }
 
   return (
@@ -48,7 +48,7 @@ function Home() {
           visible={isVisible}
           onClose={CloseList}
           className={styles.drawer}
-          width={1500}
+          width={1000}
         >
           <div className={styles.more}>What's more</div>
           <div className={styles.menu}>
@@ -74,10 +74,12 @@ function Home() {
             </div>
           </div>
         </Drawer>
-        <div className={styles.tab}>
-          <div className={styles.text1}>Hello everyone , I am</div>
+        <ResponsiveGrid className={styles.tab}>
+          <Cell colSpan={12}>
+             <div className={styles.text1}>Hello everyone , I am</div>
           <div className={styles.text3}><strong>Like Frost</strong> , a Dreamer from Shan Dong University</div>
-        </div>
+          </Cell>
+        </ResponsiveGrid>
     </>
   );
 }

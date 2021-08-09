@@ -4,15 +4,18 @@ import Home from './components/Home/index';
 import styles from './index.module.scss';
 import Competition from '../Competition/index'
 import Contact from './components/Contact'
+import {ResponsiveGrid} from '@alifd/next'
+
+const {Cell} = ResponsiveGrid;
 
 function FullPage() {
   return (
-    <>
-    <ReactFullpage
+    <ResponsiveGrid gap={10}>
+      <Cell colSpan={12}>
+      <ReactFullpage
         navigation={true}
         anchors={['Hi', 'Contact_me']}
         scrollingSpeed = {1000}
-        //sectionsColor={['#ff5f45', '#0798ec', '#fc6c7c', 'grey']}
         render={({state, fullpageApi}) => {
           return (
             <> 
@@ -24,7 +27,8 @@ function FullPage() {
           );
         }}
       />
-      </>
+      </Cell>
+    </ResponsiveGrid>
   );
 }
 

@@ -4,29 +4,23 @@
   justify-content: left;
   color: $color-text1-1;
   font-weight:400;
-  font-size: 26px;
-  line-height: 150px;
-  padding-left: 30px;
+  font-size: 10px;
+  line-height: 40%;
+  padding-left: 5%;
   z-index: 999;
-  margin: -320px 0 0 50px;
-
-  &:visited,
-  &:link {
-    color: $color-text1-1;
-  }
 
   img {
-    height: 80px;
-    margin-right: 10px;
-    border-radius: 40px;
+    height: 8em;
+    margin-right: 5%;
+    border-radius: 4em;
   }
 }
 
 .text{
-  color:white
+  color:black
 }
 .distext{
-  color:white;
-  padding-left: 20px;
-  font-size: 18px;
+  color:rgb(128, 127, 127);
+  padding-left: 8%;
+  font-size: 2em;
 }
